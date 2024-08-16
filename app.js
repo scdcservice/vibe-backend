@@ -7,7 +7,7 @@ const logger = require("morgan");
 const playerRouter = require("./routes/player");
 
 const corsOptions = {
-  origin: "https://streetculture.center/",
+  origin: "https://streetculture.center",
   optionsSuccessStatus: 200,
 };
 
